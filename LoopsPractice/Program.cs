@@ -159,18 +159,123 @@ namespace LoopsPractice
             //}
             //while (playAgain == "yes");
 
-            for (int i = 0; i < 10; i++)
+            //for (int i = 0; i < 10; i++)
+            // {
+            //    Console.WriteLine(i);
+            //    if (i == 5)
+            //        {
+            //        break;
+            //       }
+            //}
+
+            //int x = 1;
+            //while (x <= 10)
+            //{
+            //    Console.WriteLine(x);
+            //    x++;
+            //}
+            //int lives = 3;
+            //int magicNumber = 15;
+            //bool isPlaying = true;
+            //while(lives>0 && isPlaying ==true)
+            //{
+            //    Console.WriteLine("Guess my magic number!");
+            //    int userGuess = int.Parse(Console.ReadLine());
+            //    if (magicNumber == userGuess)
+            //    {
+            //        Console.WriteLine("You guessed right!");
+            //        isPlaying = false;
+            //        //break;
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Sorry Try Again");
+            //        lives--;
+            //        Console.WriteLine("You have " + lives + " left");
+            //    }
+
+
+            //}
+
+
+            //Print the numbers 1-100
+            //if the number is a multiple of 3 print fizz
+            //if the number is a miltiple of 5 print buzz
+            //if the number is a multiple of both print fizzbuzz
+            //int x = 1;
+            //for (int i =1;i <=100; i++)
+            //{
+            //    if (i % 15 == 0)
+            //    {
+            //        Console.WriteLine("FizzBuzz");
+            //    }
+            //    else if (i % 3 == 0)
+            //    {
+            //        Console.WriteLine("Fizz");
+            //    }
+            //    else if (i % 5 == 0)
+            //    {
+            //        Console.WriteLine("Buzz");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine(i);
+            //    }
+
+            //}
+
+            //create an int array with 10 elements
+            //find the mean of these elements and output the resul to the console
+            //int[] elements = new int[10];
+            //for (int i = 0; i < numbers.Length; i++)
+            //int[] elements = { 1,5,9,14,6,15,22,25,55,48};
+            //int total = 0;
+            //foreach (int number in elements)
+            //{
+            //    total += number;
+            //}
+            //int mean = total / elements.Length;
+            //Console.WriteLine(mean);
+
+
+            //***Nested Loops***
+
+            //1234
+            //1234
+
+            //for (int i = 1; i <= 2; i++)
+            //{
+            //    for(int j =1; j<=4;j++)
+            //    {
+            //    Console.Write(j);//columns 
+            //    }
+            //    Console.WriteLine();//row
+            //}
+
+            // Print a triangle
+            //
+            //int n = 4;
+            //for (int row = 1; row <=n; row++)
+            //{
+            //    for (int col = 1; col <= row; col++)
+            //    {
+            //        Console.Write(col+ " ");
+            //    }
+            //    Console.WriteLine();
+            //}
+
+            // Write a program that prints a multiplication table 5X5 using a nested loops
+            int n = 5;
+            for (int row = 1; row <=n; row++)
             {
-                Console.WriteLine(i);
-                if (i == 5)
-                    {
-                    break;
-                    }
+                for (int col = 1; col <= row; col++)
+                {
+                    Console.Write(col + " ");
+                }
+                Console.WriteLine();
             }
 
-
-
-
+            //Create an array of your favorite movies. Print out each movie in the list
 
         }
     }
