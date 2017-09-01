@@ -265,17 +265,72 @@ namespace LoopsPractice
             //}
 
             // Write a program that prints a multiplication table 5X5 using a nested loops
-            int n = 5;
-            for (int row = 1; row <=n; row++)
-            {
-                for (int col = 1; col <= row; col++)
-                {
-                    Console.Write(col + " ");
-                }
-                Console.WriteLine();
-            }
+           
+            //for (int row = 1; row <= 5; row++)
+            //{
+            //    for (int col = 1; col <= 5; col++)
+            //    {
+            //        Console.Write("{0}x{1} ", row, col);
+            //    }
+            //    Console.WriteLine();
 
-            //Create an array of your favorite movies. Print out each movie in the list
+            //}
+
+            //Create an array of your favorite movies. Print out each movie in the list, unless the movie starts with a vowel. Hint:
+            //Research startsWith()
+
+            //string[] favMovies = { "The Matrix", "Blade", "StepBrothers", "Enemy of the State" };
+            //string[] vowelArray = { "A", "E", "I", "O", "U" };
+            //foreach (string movie in favMovies)
+            //{
+            //    foreach (string movie in favMovies)
+            //    {
+            //        if(movie.StartsWith(vowelArray))
+            //        {
+            //           Console.WriteLine(favMovies);
+            //        }
+            //    }
+
+
+
+
+                //Write a console application that asks the user for an interger. If that integer is evenly divisible by 3, then write "You won"
+                //If it isnt true, write "You lost". Keep asking them for a number looping until they win
+
+                //Console.WriteLine("Please enter a number");
+                //int userNumber = int.Parse(Console.ReadLine());
+                //while (userNumber %3!=0)
+                //{
+                //    Console.WriteLine("You lose, try again");
+                //    userNumber = int.Parse(Console.ReadLine());
+                //}
+                //Console.WriteLine("You won");
+
+
+            //practice problems
+
+            Console.WriteLine("Select a number");
+            int n = int.Parse(Console.ReadLine());
+            Console.WriteLine("Please select another number");
+            int m = int.Parse(Console.ReadLine());
+            while (n > m )
+            {
+                Console.WriteLine("Please enter a new number");
+                n = int.Parse(Console.ReadLine());
+                Console.WriteLine("Please enter a new second number");
+                m = int.Parse(Console.ReadLine());
+            }
+            for (int i = n; i < m; i++)
+            {
+                if (i % 3 == 0)
+                {
+                    Console.WriteLine(i);
+                }
+            }
+        
+
+            
+            
 
         }
     }
